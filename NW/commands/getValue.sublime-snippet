@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+.getValue('${1:selector}', function(result) {
+  this.assert.equal(typeof result, "object");
+  this.assert.equal(result.status, 0);
+  this.assert.equal(result.value, '{2:value of input}');
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-getval</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.getValue()</description>
+</snippet>

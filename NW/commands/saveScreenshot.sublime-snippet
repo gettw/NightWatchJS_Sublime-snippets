@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+.saveScreenshot('${1:/path/to/fileName.png}', ${2:function()\{
+  //optional callback
+\}})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-savescrsh</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.saveScreenshot()</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+.window_handles(function(result) {
+  var handle = result.value[${1:index of window form 0}];
+  this.switchWindow(handle);
+}, ${2:function()\{
+  //optional callback
+\}})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-swtchw</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.switchWindow()</description>
+</snippet>

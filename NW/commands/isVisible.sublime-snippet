@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+.isVisible('${1:selector}', function(result) {
+  this.assert.equal(typeof result, "object");
+  this.assert.equal(result.status, 0);
+  this.assert.equal(result.value, ${2:true});
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-isvsbl</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.isVisible()</description>
+</snippet>

@@ -1,6 +1,8 @@
 <snippet>
   <content><![CDATA[
-.clearValue('${1:selector of input}', ${2:callback})
+.clearValue('${1:selector of input}', ${2:function()\{
+  //optional callback
+\}})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>nw-clrval</tabTrigger> -->

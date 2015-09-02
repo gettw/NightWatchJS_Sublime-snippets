@@ -1,12 +1,10 @@
 <snippet>
   <content><![CDATA[
-.click('${1:selector}', ${2:function()\{
-  //optional callback
-\}})
+.verify.hidden('${1:cssSelector}', '${2:message(optional)}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>nw-click</tabTrigger>
+  <tabTrigger>nw_ver_hidden</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.python</scope> -->
-  <description>.click()</description>
+  <description>.verify.hidden()</description>
 </snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+.submitForm('${1:form-selector}', ${2:function()\{
+  //optional callback
+\}})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-submt</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.submitForm()</description>
+</snippet>

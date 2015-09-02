@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+.getCssProperty('${1:selector}', ${2:cssProperty}, function(result) {
+  this.assert.equal(typeof result, "object");
+  this.assert.equal(result.status, 0);
+  this.assert.equal(result.value, '${3:value of the property}');
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-getcssprop</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.getCssPropery()</description>
+</snippet>

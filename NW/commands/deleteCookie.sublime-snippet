@@ -1,6 +1,8 @@
 <snippet>
   <content><![CDATA[
-.deleteCookie('${1:cookieName}', ${2:callback(optional)})
+.deleteCookie('${1:cookieName}', ${2:function()\{
+  //optional callback
+\}})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>nw-delcookie</tabTrigger>

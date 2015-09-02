@@ -3,7 +3,7 @@
 .assert.hidden('${1:cssSelector}', '${2:message(optional)}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>nw_hidden</tabTrigger>
+  <tabTrigger>nw_ass_hidden</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.python</scope> -->
   <description>.assert.hidden()</description>

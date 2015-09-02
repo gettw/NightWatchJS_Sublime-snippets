@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+.getCookies(function(result) {
+  this.assert.equal(result.value.length, ${1:1}); // count of cookies
+  this.assert.equals(result.value[0].name, '${2:name of the first cookie}');
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-getcookies</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.getCookies()</description>
+</snippet>

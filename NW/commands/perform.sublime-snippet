@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+.perform(function(${1:browser}${2:, done}) {
+  ${3:console.log('elementValue', elementValue);
+  // potentially other async stuff going on
+  // on finished, call the done callback
+  done();
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-perfrm</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.perform()</description>
+</snippet>

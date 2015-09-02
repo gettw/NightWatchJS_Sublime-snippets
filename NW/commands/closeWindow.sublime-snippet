@@ -1,6 +1,8 @@
 <snippet>
   <content><![CDATA[
-.closeWindow(${1:callback(optional)})
+.closeWindow(${1:function()\{
+  //optional callback
+\}})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>nw-closew</tabTrigger>

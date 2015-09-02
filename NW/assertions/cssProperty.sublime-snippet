@@ -3,7 +3,7 @@
 .assert.cssProperty('${1:cssSelector}', '${2:cssProperty}', '${3:expected}', '${4:message(optional)}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>nw_csspr</tabTrigger>
+  <tabTrigger>nw_ass_csspr</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.python</scope> -->
   <description>.assert.cssProperty()</description>

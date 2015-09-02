@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+.isLogAvailable(${1:'type of log to test (string/function)'}, function(${2:isAvailable}) {
+  ${3:// do something more in here}  
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-islogavlbl</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.isLogAvailable()</description>
+</snippet>

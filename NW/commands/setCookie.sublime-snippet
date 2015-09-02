@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+.setCookie(${1:\{
+  name     : "test_cookie",
+  value    : "test_value",
+  path     : "/", (Optional)
+  domain   : "example.org", (Optional)
+  secure   : false, (Optional)
+  httpOnly : false, // (Optional)
+  expiry   : 1395002765 // (Optional) time in seconds since midnight, January 1, 1970 UTC
+  \}}, ${2:function()\{
+  //optional callback
+\}})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-setcookie</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.setCookie()</description>
+</snippet>

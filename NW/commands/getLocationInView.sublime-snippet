@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+.getLocationInView('${1:selector}', function(result) {
+  this.assert.equal(typeof result, "object");
+  this.assert.equal(result.status, 0);
+  this.assert.equal(result.value.x, ${2:location by X});
+  this.assert.equal(result.value.y, ${3:location by Y});
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-getlocvw</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.getLocationInView()</description>
+</snippet>

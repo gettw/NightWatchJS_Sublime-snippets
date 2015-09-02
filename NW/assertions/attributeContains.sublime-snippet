@@ -3,7 +3,7 @@
 .assert.attributeContains('${1:selector}', '${2:attribute}', '${3:expected}', '${4:message(optional)}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>nw_attrcont</tabTrigger>
+  <tabTrigger>nw_ass_attrcont</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.python</scope> -->
   <description>.assert.attributeContains()</description>

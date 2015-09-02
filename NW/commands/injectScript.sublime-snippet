@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+.injectScript('${1:http://example.org/js/utility.js}', function() {
+  ${2:// we're all done here.}
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-injscr</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.injectScript()</description>
+</snippet>
