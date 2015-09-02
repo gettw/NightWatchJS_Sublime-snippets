@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+.getAttribute('${1:selector}', '${2:attribute}', function(result) {
+    this.assert.equal(typeof result, "object");
+    this.assert.equal(result.status, 0);
+    this.assert.equal(result.value, "${3:value of attribute}");
+    // assert here
+  })
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nw-getattr</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>.getAttribute()</description>
+</snippet>

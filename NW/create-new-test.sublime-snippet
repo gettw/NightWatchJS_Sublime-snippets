@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+
+'${1:Name of the test}' : function(browser) {
+  ${2:// code here}
+},
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>nwnt</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>NW - Adding the new test</description>
+</snippet>
