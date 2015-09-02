@@ -2,26 +2,26 @@
   <content><![CDATA[
 module.exports = {
   
-  before : function(browser) {
+  before : function(${1:browser}) {
     // code here
   },
   
-  after : function(browser) {
-    browser
+  after : function(${1:browser}) {
+    ${1:browser}
         .end();
   },
 
-  beforeEach : function(browser) {
+  beforeEach : function(${1:browser}) {
     // code here
   },
 
-  afterEach : function(browser) {
+  afterEach : function(${1:browser}) {
     // code here
   },
 
-  '${1:Name of the test}' : function(browser) {
-    browser
-        ${2:// code here }
+  '${2:Name of the test}' : function(${1:browser}) {
+    ${1:browser}
+        ${3:// code here }
   },
 
 }

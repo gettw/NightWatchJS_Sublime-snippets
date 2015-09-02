@@ -1,8 +1,9 @@
 <snippet>
   <content><![CDATA[
 
-'${1:Name of the test}' : function(browser) {
-  ${2:// code here}
+'${1:Name of the test}' : function(${2:browser}) {
+  ${2:browser}
+    ${3:// your code here}
 },
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
