@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 .submitForm('${1:form-selector}', ${2:function()\{
-  //optional callback
+  ${0://optional callback}
 \}})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

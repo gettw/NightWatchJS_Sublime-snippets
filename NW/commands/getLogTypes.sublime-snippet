@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 .getLogTypes(function(${1:typesArray}) {
-  ${2}
+  ${0}
 })
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

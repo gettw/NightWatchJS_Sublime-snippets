@@ -9,7 +9,7 @@
   httpOnly : false, // (Optional)
   expiry   : 1395002765 // (Optional) time in seconds since midnight, January 1, 1970 UTC
   \}}, ${2:function()\{
-  //optional callback
+  ${0://optional callback}
 \}})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

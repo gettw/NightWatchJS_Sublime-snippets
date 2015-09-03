@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 .waitForElementPresent('${1:selector}', ${2:timeout}${3:, abortOnFailure(boolean [optional])}${4:, function()\{
-  //optional callback
+  ${0://optional callback}
 \}}${5:, 'optional message'})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

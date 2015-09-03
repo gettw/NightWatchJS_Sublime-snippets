@@ -4,7 +4,7 @@
   var handle = result.value[${1:index of window form 0}];
   this.switchWindow(handle);
 }, ${2:function()\{
-  //optional callback
+  ${0://optional callback}
 \}})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

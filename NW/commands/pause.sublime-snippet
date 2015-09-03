@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 .pause(${1:time in ms (nothing for suspend indefinitely)}, ${2:function()\{
-  //optional callback
+  ${0://optional callback}
 \}})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

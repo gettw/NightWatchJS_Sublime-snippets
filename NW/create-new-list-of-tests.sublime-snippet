@@ -21,7 +21,7 @@ module.exports = {
 
   '${2:Name of the test}' : function(${1:browser}) {
     ${1:browser}
-        ${3:// code here }
+        ${0:// code here }
   },
 
 }

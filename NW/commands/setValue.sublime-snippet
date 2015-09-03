@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 .setValue('${1:input[type=text]}', ${2:['nightwatch', browser.Keys.ENTER]}, ${3:function()\{
-  //optional callback
+  ${0://optional callback}
 \}})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

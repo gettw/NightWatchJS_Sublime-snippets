@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 .moveToElement('${1:selector}', ${2:x-offset}, ${3:y-offset}, ${4:function()\{
-  //optional callback
+  ${0://optional callback}
 \}})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 .injectScript('${1:http://example.org/js/utility.js}', function() {
-  ${2:// we're all done here.}
+  ${0:// we're all done here.}
 })
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
