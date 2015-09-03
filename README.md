@@ -18,7 +18,7 @@ For example: 'nwfnv' converts to the<br>
 Use the TAB after placing of the function, for changing/deleting parameters of current function.
 
 To create a new file with tests use the command 'nwnl' (Night Watch New List of tests)<br>
-To add a new test to an existing file use 'nwnt' (Night Watch New Test)
+To add a new test to an existing file use the 'nwnt' (Night Watch New Test)
 
 Commands starts with prefix 'nw-'<br>
 Assertions and Verifications starts with prefix 'nw_'
