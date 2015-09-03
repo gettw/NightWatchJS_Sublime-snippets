@@ -1,6 +1,7 @@
 <snippet>
   <content><![CDATA[
-.assert.value('${1:cssSelector of input}', '${2:expectedText}', '${3:message(optional)}')
+.assert.value('${1:cssSelector of input}', '${2:expectedText}'${3:, '${4:message(optional)}'})
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>nw_ass_value</tabTrigger>

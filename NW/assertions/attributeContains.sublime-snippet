@@ -1,6 +1,7 @@
 <snippet>
   <content><![CDATA[
-.assert.attributeContains('${1:selector}', '${2:attribute}', '${3:expected}', '${4:message(optional)}')
+.assert.attributeContains('${1:selector}', '${2:attribute}', '${3:expected}'${4:, '${5:message(optional)}'})
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>nw_ass_attrcont</tabTrigger>

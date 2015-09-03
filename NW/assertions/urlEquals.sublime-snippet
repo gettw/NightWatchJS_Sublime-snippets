@@ -1,6 +1,7 @@
 <snippet>
   <content><![CDATA[
-.assert.urlEquals('${1:expectedText}', '${2:message(optional)}')
+.assert.urlEquals('${1:expectedText}'${2:, '${3:message(optional)}'})
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>nw_ass_urleq</tabTrigger>

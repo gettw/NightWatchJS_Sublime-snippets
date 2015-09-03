@@ -1,6 +1,7 @@
 <snippet>
   <content><![CDATA[
-.assert.containsText('${1:css-selector}', '${2:expectedText}', '${3:message(optional)}')
+.assert.containsText('${1:css-selector}', '${2:expectedText}'${3:, '${4:message(optional)}'})
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>nw_ass_conttxt</tabTrigger>

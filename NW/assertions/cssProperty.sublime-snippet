@@ -1,6 +1,7 @@
 <snippet>
   <content><![CDATA[
-.assert.cssProperty('${1:cssSelector}', '${2:cssProperty}', '${3:expected}', '${4:message(optional)}')
+.assert.cssProperty('${1:cssSelector}', '${2:cssProperty}', '${3:expected}'${4:, '${5:message(optional)}'})
+${0}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>nw_ass_csspr</tabTrigger>
