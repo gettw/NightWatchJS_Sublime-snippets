@@ -2,26 +2,30 @@
   <content><![CDATA[
 module.exports = {
   
+  // This will run before the execution of the test suite
   before : function(${1:browser}) {
     // code here
   },
   
+  // This will run after the execution of the test suite
   after : function(${1:browser}) {
     ${1:browser}
         .end();
   },
-
+  
+  // This will be run before each test suite is started
   beforeEach : function(${1:browser}) {
     // code here
   },
-
+  
+  // This will be run after each test suite is finished
   afterEach : function(${1:browser}) {
     // code here
   },
 
   '${2:Name of the test}' : function(${1:browser}) {
     ${1:browser}
-        ${0:// code here }
+        ${0:// Save your file before writing a code here }
   },
 
 }
