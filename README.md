@@ -20,7 +20,7 @@ Use the TAB after placing of the function, for changing/deleting parameters of c
 To create a new file with tests use the command 'nwnl' (Night Watch New List of tests)<br>
 To add a new test to an existing file use the 'nwnt' (Night Watch New Test)
 
-Commands starts with prefix 'nw-'<br>
-Assertions and Verifications starts with prefix 'nw_'
+Commands begin with the prefix 'nw-'<br>
+Assertions and Verifications begin with the prefix 'nw_'
 
-So, you can start typing 'nw_', only to get the assertions/verifications or 'nw-' to get the list just of commands.
+So, you can start typing 'nw_', just to get the assertions/verifications or 'nw-' to get just the list of commands.
